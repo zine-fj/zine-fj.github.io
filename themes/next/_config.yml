@@ -96,12 +96,11 @@ menu:
   home: / || home
   # about: /about/ || user
   tags: /tags/ || tags
-  # categories: /categories/ || th
+  categories: /categories/ || th
   archives: /archives/ || archive
   # schedule: /schedule/ || calendar
   # sitemap: /sitemap.xml || sitemap
-  # search: /
-  commonweal: /404.html || heartbeat
+  # commonweal: /404.html || heartbeat
   
 
 # Enable/Disable menu icons.
@@ -113,8 +112,8 @@ menu_icons:
   categories: th
   tags: tags
   archives: archive
-  search: search
-  commonweal: heartbeat
+  # search: search
+  # commonweal: heartbeat
   
 
 
@@ -230,8 +229,8 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
-  length: 150
+  enable: true
+  length: 300
 
 # Post meta display settings
 post_meta:
@@ -370,7 +369,7 @@ han: false
 #baidu_analytics:
 
 # Duoshuo ShortName
-duoshuo_shortname: your-disqus-shortname
+# duoshuo_shortname: your-disqus-shortname
 
 # Disqus
 disqus:
@@ -444,13 +443,13 @@ gitment:
 #add_this_id:
 
 # Share
-#duoshuo_share: true
+duoshuo_share: false
 
 # NeedMoreShare2
 # This plugin is a pure javascript sharing lib which is useful in China.
 # See: https://github.com/revir/need-more-share2
 # Also see: https://github.com/DzmVasileusky/needShareButton
-# iconStyle: default | box
+# iconStyle: default
 # boxForm: horizontal | vertical
 # position: top / middle / bottom + Left / Center / Right
 # networks: Weibo,Wechat,Douban,QQZone,Twitter,Linkedin,Mailto,Reddit,
@@ -709,17 +708,18 @@ pace: false
 # pace_theme: pace-theme-center-simple
 pace_theme: pace-theme-minimal
 
+
 # Canvas-nest
 canvas_nest: false
 
 # three_waves
-three_waves: false
+three_waves: true
 
 # canvas_lines
 canvas_lines: false
 
 # canvas_sphere
-canvas_sphere: true
+canvas_sphere: false
 
 # Only fit scheme Pisces
 # Canvas-ribbon
