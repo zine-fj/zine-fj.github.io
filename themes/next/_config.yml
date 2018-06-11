@@ -408,7 +408,7 @@ valine:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
+livere_uid: MTAyMC8zNzI0OC8xMzc4Mg==
 
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
@@ -710,10 +710,10 @@ pace_theme: pace-theme-minimal
 
 
 # Canvas-nest
-canvas_nest: false
+canvas_nest: true
 
 # three_waves
-three_waves: true
+three_waves: false
 
 # canvas_lines
 canvas_lines: false
