@@ -6,12 +6,12 @@ menu:
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
-  #qq: "#"
-  #weixin: "#"
+  github: "https://github.com/zine-fj"
+  weibo: "https://weibo.com/3868078816/profile?topnav=1&wvr=6&is_all=1"
+  # rss: "#"
+  zhihu: "https://www.zhihu.com/people/hua-ye-92/activities"
+  # qq: "#"
+  weixin: "an6785653"
   #jianshu: "#"
   #douban: "#"
   #segmentfault: "#"
@@ -47,7 +47,7 @@ reward_type: 2
 # 打赏wording
 reward_wording: '谢谢你请我吃糖果'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: 
+alipay: /img/pay.png
 # 微信二维码图片地址
 weixin: 
 
@@ -68,7 +68,7 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar:
+avatar: /img/avatar.jpeg
 
 #是否开启分享
 share_jia: true
@@ -107,7 +107,7 @@ style:
 # slider的设置
 slider:
   # 是否默认展开tags板块
-  showTags: false
+  showTags: true
 
 # 智能菜单
 # 如不需要，将该对应项置为false
@@ -116,7 +116,7 @@ slider:
 #  friends: false
 smart_menu:
   innerArchive: '所有文章'
-  friends: '友链'
+  friends: false
   aboutme: '关于我'
 
 friends:
@@ -127,4 +127,4 @@ friends:
   友情链接5: http://localhost:4000/
   友情链接6: http://localhost:4000/
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: nodeJs + git + hexo<br>诞生了这样的博客<br><br>主题是 yilia<br><br>目前正在完善中....
