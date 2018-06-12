@@ -22,15 +22,6 @@
       <div id="vk_comments"></div>
     </div>
 
-  {% elseif theme.disqus.enable %}
-    <div class="comments" id="comments">
-      <div id="disqus_thread">
-        <noscript>
-          Please enable JavaScript to view the
-          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-        </noscript>
-      </div>
-    </div>
 
   {% elseif theme.hypercomments_id %}
     <div class="comments" id="comments">
@@ -61,7 +52,17 @@
         <div id="gitment-container"></div>
       {% endif %}
     </div>
-
+    
+  {% elseif theme.disqus.enable %}
+  <div class="comments" id="comments">
+    <div id="disqus_thread">
+      <noscript>
+        Please enable JavaScript to view the
+        <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+      </noscript>
+    </div>
+  </div>
+  
   {% elseif theme.valine.appid and theme.valine.appkey %}
     <div class="comments" id="comments">
     </div>

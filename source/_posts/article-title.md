@@ -1,7 +1,11 @@
 ---
 title: 我的博客
 date: 2018-06-08 10:56:12
-tags: 
+categories: 
+- 技术
+tags:
+- 前端
+- hexo
 ---
 
 ## 今天第一次创建博客
