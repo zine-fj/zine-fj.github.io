@@ -100,6 +100,8 @@ menu:
   archives: /archives/ || archive
   # schedule: /schedule/ || calendar
   # sitemap: /sitemap.xml || sitemap
+  # Photos: /photos/ || image
+  相册: /photos/ || image
   commonweal: /404.html || heartbeat
   
 
@@ -256,8 +258,8 @@ wechat_subscriber:
 
 # Reward
 reward_comment: 喜欢的话？就打赏一点吧^_^
-# wechatpay: /images/wechatpay.jpg
-alipay: /images/pay.png
+wechatpay: /images/wechatpay.png
+# alipay: /images/pay.png
 #bitcoin: /images/bitcoin.png
 
 # Declare license on posts
@@ -830,18 +832,6 @@ images: images
 # Theme version
 version: 5.1.4
 
-# 萌妹纸添加
-live2d:
-  enable: true
-  scriptFrom: local
-  model:
-    use: live2d-widget-model-hibiki
-  display:
-    position: left
-    width: 100
-    height: 200
-  mobile:
-    show: true
 
 # 文章末尾添加“本文结束”标记
 passage_end_tag:
