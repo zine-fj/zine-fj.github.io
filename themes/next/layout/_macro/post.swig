@@ -330,6 +330,13 @@
         {{ post.content }}
       {% endif  %}
     </div>
+
+    {% if theme.passage_end_tag.enabled and not is_index %}
+      <div>
+        {% include 'passage-end-tag.swig' %}
+      </div>
+    {% endif %}
+    
     {#####################}
     {### END POST BODY ###}
     {#####################}

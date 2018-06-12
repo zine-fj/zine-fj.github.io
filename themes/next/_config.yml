@@ -100,7 +100,7 @@ menu:
   archives: /archives/ || archive
   # schedule: /schedule/ || calendar
   # sitemap: /sitemap.xml || sitemap
-  # commonweal: /404.html || heartbeat
+  commonweal: /404.html || heartbeat
   
 
 # Enable/Disable menu icons.
@@ -113,7 +113,7 @@ menu_icons:
   tags: tags
   archives: archive
   # search: search
-  # commonweal: heartbeat
+  commonweal: heartbeat
   
 
 
@@ -433,6 +433,9 @@ gitment:
 # Warning: Baidu Share does not support https.
 #baidushare:
 ##  type: button
+baidushare:
+  type: slide
+  baidushare: true
 
 # Share
 # This plugin is more useful in China, make sure you known how to use it.
@@ -562,7 +565,7 @@ firestore:
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: false
+  enable: true
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
@@ -574,7 +577,7 @@ busuanzi_count:
   # custom pv span for one page only
   page_pv: true
   page_pv_header: <i class="fa fa-file-o"></i>
-  page_pv_footer:
+  page_pv_footer: 
 
 
 # Tencent analytics ID
@@ -826,3 +829,24 @@ images: images
 
 # Theme version
 version: 5.1.4
+
+# 萌妹纸添加
+live2d:
+  enable: true
+  scriptFrom: local
+  model:
+    use: live2d-widget-model-hibiki
+  display:
+    position: left
+    width: 100
+    height: 200
+  mobile:
+    show: true
+
+# 文章末尾添加“本文结束”标记
+passage_end_tag:
+  enabled: true
+
+# Online contact 聊天功能
+daovoice: true
+daovoice_app_id: 0322f0e3  # 这里填你刚才获得的 app_id
