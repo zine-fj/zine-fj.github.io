@@ -36,7 +36,7 @@ favicon:
   #ms_browserconfig: /images/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
-keywords: "有趣, 开心, 分享"
+keywords: "有趣, 技术, 前端, 音乐, 分享"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -99,7 +99,7 @@ menu:
   categories: /categories/ || th
   archives: /archives/ || archive
   # schedule: /schedule/ || calendar
-  # sitemap: /sitemap.xml || sitemap
+  sitemap: /sitemap.xml || sitemap
   # Photos: /photos/ || image
   相册: /photos/ || image
   commonweal: /404.html || heartbeat
@@ -480,8 +480,8 @@ needmoreshare2:
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-#google_site_verification:
-
+# google_site_verification:
+baidu_site_verification: Iy1Gtz8UQg
 # Google Analytics
 #google_analytics:
 
@@ -590,7 +590,7 @@ busuanzi_count:
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
+baidu_push: true
 
 # Google Calendar
 # Share your recent schedule to others via calendar page
