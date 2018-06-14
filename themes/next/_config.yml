@@ -159,12 +159,12 @@ social_icons:
   transition: false
 
 # Blog rolls
-links_icon: link
-links_title: Links
-links_layout: block
-#links_layout: inline
-#links:
-  #Title: http://example.com/
+links_icon: star
+links_title: friends
+# links_layout: block
+links_layout: inline
+links:
+  一世长安: http://zine-fj.coding.me 
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
@@ -245,10 +245,10 @@ post_meta:
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
-  wordcount: false
-  min2read: false
-  totalcount: false
-  separated_meta: true
+  wordcount: false  # 单篇 字数统计
+  min2read: false  # 单篇 阅读时长
+  totalcount: false # 网站 字数统计
+  separated_meta: false
 
 # Wechat Subscriber
 wechat_subscriber:
