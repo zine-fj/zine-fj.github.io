@@ -95,15 +95,15 @@ index_with_subtitle: false
 menu:
   home: / || home
   # about: /about/ || user
+  archives: /archives/ || archive
   tags: /tags/ || tags
   categories: /categories/ || th
-  archives: /archives/ || archive
   # schedule: /schedule/ || calendar
-  sitemap: /sitemap.xml || sitemap
+  # sitemap: /sitemap.xml || sitemap
   # Photos: /photos/ || image
-  相册: /photos/ || image
+  # 相册: /photos/ || image
+  留言板: /message/ || comment  
   commonweal: /404.html || heartbeat
-  
 
 # Enable/Disable menu icons.
 menu_icons:
@@ -232,7 +232,7 @@ excerpt_description: true
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
   enable: true
-  length: 200
+  length: 100
 
 # Post meta display settings
 post_meta:
@@ -393,14 +393,14 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 valine:
-  enable: false
-  appid:  # your leancloud application appid
-  appkey:  # your leancloud application appkey
-  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+  enable: true
+  appid: R45Yk3KFhSbb82Mi3PW2nKwE-gzGzoHsz # your leancloud application appid
+  appkey: er9AbHk94jP16Wy82bqERBVi # your leancloud application appkey
+  notify: true # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
-  placeholder: Just go go # comment box placeholder
-  avatar: mm # gravatar style
-  guest_info: nick,mail,link # custom comment header
+  placeholder: ー( ´ ▽ ` )ﾉ 留下你的小脚印... # comment box placeholder
+  avatar: wavatar # gravatar style
+  guest_info: nick,mail # custom comment header
   pageSize: 10 # pagination size
 
 
@@ -410,7 +410,7 @@ valine:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-livere_uid: MTAyMC8zNzI0OC8xMzc4Mg==
+# livere_uid: MTAyMC8zNzI0OC8xMzc4Mg==
 
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/

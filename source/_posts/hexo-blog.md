@@ -107,9 +107,8 @@ theme:next
 * 来必力：https://livere.com （来自韩国，使用邮箱注册。）
 * 畅言： http://changyan.kuaizhan.com （安装需要备案号。不太好用。）
 * Gitment： https://github.com/imsun/gitment （有点小bug，比如说每次需要手动初始化，登录时会跳到主页。。）
-* Valine: https://github.com/xCss/Valine (基于Leancloud的极简风评论系统，用了下，没效果，是我Next主题的原因还是？）
-所以最终推荐使用：来比力，注册登录运行
-在代码管理中找到 ``data-id`` 将其拷贝到主题目录下的 ``_config.yml`` 中的 ``livere_uid``
-注意：如果不行，在主题目录下 ``layout\_partials\comments.swig`` 找到 ``noscript`` 所在的判断语句，删除其下内容即可
+* Valine: https://github.com/xCss/Valine (基于Leancloud的极简风评论系统，符合我的调调）
+所以最终推荐使用：Valine，注册登录运行
+在主题配置中找到 ``valine`` 将其enable设置为true，并填写相应的appid、appkey即可
 
 参考网址：(https://blog.csdn.net/gdutxiaoxu/article/details/53576018)
