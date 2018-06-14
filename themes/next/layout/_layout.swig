@@ -107,3 +107,5 @@
 <script type="text/javascript" src="/photos/photo.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+<!-- 360自动收录 -->
+<script type="text/javascript" src="/js/src/360.js"></script>
