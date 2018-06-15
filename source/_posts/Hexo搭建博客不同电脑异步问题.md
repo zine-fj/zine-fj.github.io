@@ -1,11 +1,11 @@
 ---
-title: hexo-blog-async
+title: Hexo搭建博客不同电脑异步问题
 date: 2018-06-12 14:26:10
 categories: 
-- 技术
+- Hexo
 tags:
-- 前端
-- git
+- Git
+- nodeJs
 ---
 ## hexo更换电脑时同步问题
 当你在公司的一台电脑上成功部署完hexo并且发表一篇博客时，别着急激动！有没有想过回家后还想用hexo怎么办呢？

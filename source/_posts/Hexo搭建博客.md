@@ -1,12 +1,11 @@
 ---
-title: hexo-blog
+title: Hexo搭建博客
 date: 2018-06-12 10:38:03
 categories: 
-- 技术
+- Hexo
 tags:
-- 前端
-- hexo
-- git
+- Git
+- nodeJs
 ---
 
 ## 简介
@@ -83,7 +82,8 @@ hexo d -g
 ``` shell
 npm i hexo-deployer-git --save
 ```
-* 如果出现 ``publickey`` 错误信息，则可能是秘钥配置问题，查看另一篇博客 hexo-git-ssh
+* 如果出现 ``publickey`` 错误信息，则可能是秘钥配置问题，查看另一篇博客 Git秘钥问题
+* 生成部署前，最好 ``hexo clean``，否则后期的修改可能获取不到！
 
 ## 主题推荐
 两个主题推荐：

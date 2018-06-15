@@ -13,11 +13,12 @@
       <i class="fa fa-area-chart"></i>
     </span>
     {% if theme.post_wordcount.item_text %}
-      <span class="post-meta-item-text">{{ __('post.totalcount') }}&#58;</span>
+      <span class="post-meta-item-text">{{ __('已经写了') }}</span>
     {% endif %}
-    <span title="{{ __('post.totalcount') }}">{#
+    <span title="{{ __('总字数') }}">{#
     #}{{ totalcount(site, '0,0.0a') }}{#
   #}</span>
+    <span class="post-meta-item-text">{{ __('字啦') }}</span> 
   {% endif %}
 </div>
 

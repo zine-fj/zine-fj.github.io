@@ -375,9 +375,9 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
+  enable: true
   shortname:
-  count: true
+  count: false
 
 # Hypercomments
 #hypercomments_id:
@@ -697,7 +697,7 @@ motion:
 fancybox: true
 
 # Progress bar in the top during page loading.
-pace: false
+pace: true
 # Themes list:
 #pace-theme-big-counter
 #pace-theme-bounce
@@ -714,7 +714,7 @@ pace: false
 #pace-theme-minimal
 # For example
 # pace_theme: pace-theme-center-simple
-pace_theme: pace-theme-minimal
+pace_theme: pace-theme-flash
 
 
 # Canvas-nest
@@ -841,5 +841,11 @@ passage_end_tag:
   enabled: true
 
 # Online contact 聊天功能
-daovoice: true
+daovoice: false
 daovoice_app_id: 0322f0e3  # 这里填你刚才获得的 app_id
+
+# 添加博文置顶
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date

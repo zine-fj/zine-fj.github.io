@@ -1,11 +1,10 @@
 ---
-title: hexo-git-ssh
+title: Git秘钥问题
 date: 2018-06-12 11:12:14
 categories: 
-- 技术
+- Hexo
 tags:
-- 前端
-- git
+- Git
 ---
 ## 简介
 在管理Git项目上，很多时候都是直接使用https url克隆到本地，当然也有有些人使用SSH url克隆到本地。
