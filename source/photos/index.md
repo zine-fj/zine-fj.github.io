@@ -1,7 +1,7 @@
 ---
 title: photos
 date: 2018-06-12 21:30:28
-type: photos
+type: "photos"
 noDate: 'true'
 ---
 <script src="https://cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.js"></script>

@@ -102,7 +102,7 @@ menu:
   # sitemap: /sitemap.xml || sitemap
   # Photos: /photos/ || image
   # 相册: /photos/ || image
-  留言板: /message/ || comment  
+  message: /message/ || comment  
   commonweal: /404.html || heartbeat
 
 # Enable/Disable menu icons.
@@ -245,9 +245,9 @@ post_meta:
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
-  wordcount: false  # 单篇 字数统计
+  wordcount: true  # 单篇 字数统计
   min2read: false  # 单篇 阅读时长
-  totalcount: false # 网站 字数统计
+  totalcount: true # 网站 字数统计
   separated_meta: false
 
 # Wechat Subscriber
@@ -375,7 +375,7 @@ han: false
 
 # Disqus
 disqus:
-  enable: true
+  enable: false
   shortname:
   count: true
 
@@ -570,16 +570,18 @@ busuanzi_count:
   # count values only if the other configs are false
   enable: true
   # custom uv span for the whole site
+  # 底部访客人数
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
-  site_uv_footer:
+  site_uv_footer: 
   # custom pv span for the whole site
+  # 底部访问量
   site_pv: true
   site_pv_header: <i class="fa fa-eye"></i>
   site_pv_footer:
   # custom pv span for one page only
   page_pv: true
-  page_pv_header: <i class="fa fa-file-o"></i>
+  page_pv_header: <i class="fa fa-eye"></i>
   page_pv_footer: 
 
 
