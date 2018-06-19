@@ -481,7 +481,9 @@ needmoreshare2:
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
 # google_site_verification:
-baidu_site_verification: Iy1Gtz8UQg
+baidu_site_verification: RMeLbV4JEZ
+
+# 360收录
 qihu_site_verification: 0b5ccd906ce46088d51e77c74b0d851d
 # Google Analytics
 #google_analytics:
