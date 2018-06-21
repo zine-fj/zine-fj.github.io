@@ -1,7 +1,6 @@
 ---
-title: Hexo好玩的小东西
+title: Hexo有趣功能盘点
 date: 2018-06-12 18:59:12
-top: true
 categories: 
 - Hexo
 tags:
@@ -246,6 +245,64 @@ npm i --save hexo-wordcount
 ```
 
 
+
+## 添加博客运行时间
+找到文件 ``next/layout/_partials/footer.swig`` ，将下面内容复制粘贴进去即可：
+```shell
+<section class="footer-time">
+    <span class="footer__copyright">
+    <div>
+    <span id="span_dt_dt"> </span>
+    <script language="javascript">
+      function show_date_time(){
+        window.setTimeout("show_date_time()", 1000);
+        BirthDay=new Date("6/8/2018 10:56:12");//这个日期是可以修改的
+        today=new Date();
+        timeold=(today.getTime()-BirthDay.getTime());//其实仅仅改了这里
+        sectimeold=timeold/1000
+        secondsold=Math.floor(sectimeold);
+        msPerDay=24*60*60*1000
+        e_daysold=timeold/msPerDay
+        daysold=Math.floor(e_daysold);
+        e_hrsold=(e_daysold-daysold)*24;
+        hrsold=Math.floor(e_hrsold);
+        e_minsold=(e_hrsold-hrsold)*60;
+        minsold=Math.floor((e_hrsold-hrsold)*60);
+        seconds=Math.floor((e_minsold-minsold)*60);
+        span_dt_dt.innerHTML="一世长安的博客已经运行 "+daysold+" 天 "+hrsold+" 小时 "+minsold+" 分 "+seconds+" 秒";
+      }
+      show_date_time();
+    </script>
+    </div>
+    <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+</section>
+```
+
+## 如何去掉博客底部的 由Hexo强力驱动...
+找到文件 ``next/layout/_partials/footer.swig``
+将下面代码删除即可：
+```shell
+
+{% if theme.footer.powered %}
+  <div class="powered-by">{#
+  #}{{ __('footer.powered', '<a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a>') }}{#
+#}</div>
+{% endif %}
+
+{% if theme.footer.powered and theme.footer.theme.enable %}
+  <span class="post-meta-divider">|</span>
+{% endif %}
+
+{% if theme.footer.theme.enable %}
+  <div class="theme-info">{#
+  #}{{ __('footer.theme') }} &mdash; {#
+  #}<a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">{#
+    #}NexT.{{ theme.scheme }}{#
+  #}</a>{% if theme.footer.theme.version %} v{{ theme.version }}{% endif %}{#
+#}</div>
+{% endif %}
+```
 
 ## 添加萌妹纸
 1. 安装代码：
