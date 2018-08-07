@@ -8,7 +8,7 @@ subtitle:
 description: 有趣文章的收藏与分享
 keywords:
 author: 敏中
-language: zh-Hans
+language: zh-CN
 timezone:
 
 # URL
@@ -99,7 +99,8 @@ sitemap:
 
 #  主题切换
 # theme: yilia
-theme: next
+# theme: next
+theme: icarus
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -129,8 +130,8 @@ deploy:
 #     tags: true
 
 # 微搜索 next
-search:
-  path: search.xml
-  field: post
-  format: html
-  limit: 10000
+# search:
+#   path: search.xml
+#   field: post
+#   format: html
+#   limit: 10000
