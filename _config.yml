@@ -106,7 +106,7 @@ sitemap:
 # theme: yilia
 # theme: next
 # theme: icarus
-theme: hexo-theme-matery
+theme: matery
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
