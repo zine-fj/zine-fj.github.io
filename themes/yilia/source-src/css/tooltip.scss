@@ -17,9 +17,10 @@
     /* Trigger item */
 
     @-webkit-keyframes pulse {
-        from { -webkit-transform: scale3d(0.5,0.5,1); }
-        to { -webkit-transform: scale3d(1,1,1); }
+        from { -webkit-transform: scale3d(1,1,1); }
+        to { -webkit-transform: scale3d(1.2,1.2,1.2); }
     }
+    
 
     @keyframes pulse {
         from { -webkit-transform: scale3d(0.5,0.5,1); transform: scale3d(0.5,0.5,1); }

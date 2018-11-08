@@ -4,10 +4,10 @@ $(function () {
      */
     let articleCardHover = function () {
         let animateClass = 'animated pulse';
-        $('article .article .responsive-img').hover(function () {
-            $(this).addClass(animateClass);
+        $('article .article .card-image').hover(function () {
+            $(this).find('.responsive-img').addClass(animateClass);
         }, function () {
-            $(this).removeClass(animateClass);
+            $(this).find('.responsive-img').removeClass(animateClass);
         });
     };
     articleCardHover();
