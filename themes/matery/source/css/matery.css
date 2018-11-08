@@ -151,6 +151,11 @@ mark {
     border-radius: 10px;
     box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07) !important;
 }
+.card .card-image{
+    max-width: 350px;
+    max-height: 220px;
+    overflow: hidden;
+}
 
 .card .card-image img {
     border-radius: 5px 5px 0 0;
@@ -676,6 +681,8 @@ article .article-content .summary {
     padding-bottom: 2px;
     padding-left: 0;
     margin-bottom: 6px;
+    max-height: 70px;
+    overflow: hidden;
 }
 
 article .article-content .publish-author {
