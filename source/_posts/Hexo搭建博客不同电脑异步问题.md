@@ -6,6 +6,7 @@ categories:
 tags:
 - Git
 - nodeJs
+description: Hexo搭建博客不同电脑异步问题!!!!
 ---
 ## hexo更换电脑时同步问题
 当你在公司的一台电脑上成功部署完hexo并且发表一篇博客时，别着急激动！有没有想过回家后还想用hexo怎么办呢？

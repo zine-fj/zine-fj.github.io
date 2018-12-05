@@ -4,11 +4,12 @@
 
 # Site
 title: 一世长安
-subtitle: 一世长安
+subtitle: 极简主义
 description: 有趣文章的收藏与分享
 keywords:
 author: 敏中
 language: zh-CN
+# language: zh-Hans
 timezone:
 
 # URL
@@ -38,11 +39,11 @@ render_drafts: false
 post_asset_folder: false # 是否同步创建文件夹
 relative_link: false
 future: true
-# highlight:
-#   enable: false
-#   line_number: true
-#   auto_detect: false
-#   tab_replace:
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: true
+  tab_replace:
 prism_plugin:
   mode: 'preprocess'    # realtime/preprocess
   theme: 'tomorrow'
@@ -105,8 +106,8 @@ sitemap:
 #  主题切换
 # theme: yilia
 # theme: next
-# theme: icarus
-theme: matery
+# theme: matery
+theme: maupassant
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

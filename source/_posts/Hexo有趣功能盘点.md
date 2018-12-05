@@ -6,6 +6,7 @@ categories:
 tags:
 - Git
 - nodeJs
+toc: true
 ---
 
 通过在网上的学习，又在hexo的Next主题中添加了几个比较好玩的东西，如下：
