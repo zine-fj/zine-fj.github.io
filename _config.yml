@@ -4,13 +4,14 @@
 
 # Site
 title: 一世长安
-subtitle: 极简主义
+subtitle: 一世长安
 description: 有趣文章的收藏与分享
-keywords:
+# seo关键字
+keywords: 一世长安，文艺，古风，中国色，诗词，歌词，分享
 author: 敏中
-language: zh-CN
-# language: zh-Hans
+language: zh-cn
 timezone:
+
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -90,7 +91,8 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 
-# Extensions
+
+# Extensions rss
 Plugins:
 - hexo-generator-feed
 - hexo-generator-sitemap
@@ -106,7 +108,10 @@ sitemap:
 #  主题切换
 # theme: yilia
 # theme: next
-theme: maupassant
+# theme: maupassant
+theme: skapp
+# theme: myHexo
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -115,29 +120,55 @@ deploy:
   repo: git@github.com:zine-fj/zine-fj.github.io.git
   branch: master
 
-# 标签 yilia
-# jsonContent:
-#   meta: false
-#   pages: false
-#   posts:
-#     title: true
-#     date: true
-#     path: true
-#     text: false
-#     raw: false
-#     content: false
-#     slug: false
-#     updated: false
-#     comments: false
-#     link: false
-#     permalink: false
-#     excerpt: false
-#     categories: false
-#     tags: true
-
 # 微搜索 next
 # search:
 #   path: search.xml
 #   field: post
 #   format: html
 #   limit: 10000
+
+# skapp 博客配置
+# Busuanzi
+busuanzi: true
+# 博客的左上角logo图标，支持本地及在线两种方式
+logo: /img/bg.jpg
+
+# 头像/二维码（用于显示在底部）二选一
+avatar: /img/bg.jpg
+# qrcode: http://oo12ugek5.bkt.clouddn.com/images/qrcode.png
+
+# 文章的默认封面
+default_cover: /img/bg.jpg
+
+# header 的背景图
+header_cover: /img/bg.jpg
+# 博客的favicon图标，支持本地及在线两种方式，本地请将图标放置于 themes/hexo-theme-skapp/source/img 目录下
+favicon_ico: /img/an.jpg
+# 404 页面的背景图
+error_page_bg: http://blog.static.minfive.com/other/dogs.jpg
+
+# 页面加载loading图标
+loader_img: http://blog.static.minfive.com/other/loader.gif
+
+# banner显示的简短介绍
+subtitle_desc: 红衣佳人白衣友，朝与同歌暮与酒
+
+# Baidu statistic
+baidu_statistic: 324945ef7fa057db0fae6e405f21865e
+
+# Gitalk
+gitTalk:
+  clientId: 7af20fe3de9df919f4e4
+  clientSecret: 10fa8aeac6ca7922f2ec043ee65e28fd5ac83a9f
+  repo: gitalkComments
+  owner: zine-fj
+  admin: 
+    - zine-fj
+
+# 个人介绍
+introduction: 不思量，自难忘！
+# 用于页面 footer 的站长信息
+about:
+  info: 本站是基于 Hexo 搭建的静态资源博客，主要用于分享日常学习、生活及工作的一些心得总结，欢迎点击右下角订阅 rss。
+  address: Beijing, China
+  email: 747810974@qq.com
