@@ -1,9 +1,0 @@
-friend_links:
-  - name: 一路烟霞
-    desc: 一路眼瞎
-    link: https://yiluyanxia.site/
-
-build_tools:
-  - name: Hexo
-    desc: Blog Framework
-    link: https://hexo.io/
