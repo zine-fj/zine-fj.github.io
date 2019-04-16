@@ -7,7 +7,8 @@ comments: true
 ---
 
 ### 关于我
->在前端路上越走越远的程序员...，[个人简历](https://zine-fj.github.io/myShow)
+>一个在前端路上越走越远的程序员...
+<!-- [个人简历](https://zine-fj.github.io/myShow) -->
 
 喜欢所有可爱、美好的东西！偏爱古风，自诩为文艺，若为同道中人，欢迎交流。
 
