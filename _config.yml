@@ -104,6 +104,8 @@ feed:
 #sitemap
 sitemap:
   path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
 
 #  主题切换
 # theme: yilia

@@ -37,6 +37,7 @@
   },
   "devDependencies": {
     "gulp-sass": "^4.0.2",
+    "hexo-generator-baidu-sitemap": "^0.1.6",
     "hexo-renderer-sass": "^0.3.2"
   }
 }

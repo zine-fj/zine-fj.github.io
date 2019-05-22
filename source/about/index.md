@@ -30,5 +30,8 @@ comments: true
     
 </div>
 
+##### 一些小效果
+<a href="https://zine-fj.github.io/starrySky/" target="_target">星空</a>，<a href="https://zine-fj.github.io/translate/" target="_target">翻译</a>
+
 ### 建站初衷
 >在复杂的网络下，能有一片完全属于自己的天空！

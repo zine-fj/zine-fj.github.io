@@ -13,3 +13,4 @@
 - title: rss
   icon: icon-rss
   link: /atom.xml
+  # link: /baidusitemap.xml
