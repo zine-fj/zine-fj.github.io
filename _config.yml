@@ -14,8 +14,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://zine-fj.github.io
-root: /
+url: http://zine-fj.github.io/blog/
+root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -80,5 +80,5 @@ theme: inside
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:zine-fj/zine-fj.github.io.git
+  repo: git@github.com:zine-fj/blog.git
   branch: master

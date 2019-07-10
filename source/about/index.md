@@ -15,7 +15,6 @@ date: 2018-10-22 15:25:30
 本站使用<a href="https://hexo.io/zh-cn" target="_target">hexo</a>生成，主题<a href="https://github.com/ike-c/hexo-theme-inside" target="_target">inside</a>，部署在<a href="https://github.com" target="_target">Github</a>，评论系统<a href="https://github.com/gitalk/gitalk" target="_target">gitalk</a>。
 
 #### 联系方式
-<!-- + [豆瓣](https://www.douban.com/people/165053786/)、[网易云音乐](https://music.163.com/#/user/home?id=620793807) -->
 <div style="display: flex;flex-wrap: wrap;">
     <div style="margin-right: 30px;">
         <img src="/images/wx.jpg" style="width:200px;height: 200px;box-shadow: 0 0 20px #eee;">
