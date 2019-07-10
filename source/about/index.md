@@ -12,7 +12,7 @@ date: 2018-10-22 15:25:30
 <a href="https://zine-fj.github.io/starrySky/" target="_target">星空</a>，<a href="https://zine-fj.github.io/translate/" target="_target">翻译</a>
 
 #### 本站信息
-本站使用<a href="https://hexo.io/zh-cn" target="_target">hexo</a>生成，主题<a href="https://github.com/ike-c/hexo-theme-inside" target="_target">inside</a>，部署在<a href="https://github.com" target="_target">Github</a>，评论系统<a href="https://github.com/gitalk/gitalk" target="_target">gitalk</a>。
+本站使用<a href="https://hexo.io/zh-cn" target="_target">hexo</a>生成，主题<a href="https://github.com/ike-c/hexo-theme-inside" target="_target">inside</a>，部署在<a href="https://github.com" target="_target">Github</a>，评论系统<a href="https://deserts.io/diy-a-comment-system/" target="_target">valine</a>。
 
 #### 联系方式
 <div style="display: flex;flex-wrap: wrap;">
