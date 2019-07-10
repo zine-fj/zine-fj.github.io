@@ -1,0 +1,447 @@
+# ---------------------------------------------------------------
+# Basic
+# ---------------------------------------------------------------
+
+# Appearance
+appearance:
+  # 设置色调，缺省值 `#2a2b33`
+  # accent_color: '#2a2b33'
+  accent_color: '#00CBC7'
+
+  # 设置背景色
+  # background: '#f5f7fa'
+  # 设置图片背景
+  # background: '//www.toptal.com/designers/subtlepatterns/patterns/confectionary.png #f5f7fa'
+  # background: 'url(//www.toptal.com/designers/subtlepatterns/patterns/confectionary.png) #f5f7fa'
+
+  # background 支持设置为数组，数组的最后一个值被用作设置 sidebar 开启时的背景，
+  # 缺省值值为 accent_color 的值。
+  background:
+    - 'url(images/background.png)'
+    - '#2a2b33'
+
+  # 内容区域最大宽度
+  content_width: 640
+
+  # Fonts
+  font:
+    # 字体 CSS 文件的 URL
+    url: //fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat
+
+    # 基础字体，作用于 body 元素
+    base: "'Josefin Sans', 'PingFang SC', Microsoft YaHei"
+    # 作用于 sidebar 上方的 LOGO
+    logo: 'images/an.jpg'
+    # 作用于 sidebar 菜单栏
+    # menu: 'Baloo Bhaijaan'
+    # 作用于文章百分比、归档页月份、分类文字数、分页、目录索引等地方
+    label: Montserrat
+    # 作用于标题
+    heading:
+    # 作用于代码及代码块
+    code: Inconsolata, monospace
+
+  # Code Highlight theme
+  # Uses an architecture called "base16" (https://github.com/chriskempson/base16),
+  # the default highlight theme is a customized Atelier Dune Light theme,
+  # please feel free to explore more.
+  # highlight:
+
+  # Default Light by Chris Kempson (http://chriskempson.com)
+  highlight: [
+    '#f8f8f8', '#e8e8e8', '#d8d8d8', '#b8b8b8',
+    '#585858', '#383838', '#282828', '#181818',
+    '#ab4642', '#dc9656', '#f7ca88', '#a1b56c',
+    '#86c1b9', '#7cafc2', '#ba8baf', '#a16946'
+  ]
+
+  # Harmonic16 Light by Jannik Siebert (https://github.com/janniks)
+  # highlight: [
+  #   '#f7f9fb', '#e5ebf1', '#cbd6e2', '#aabcce',
+  #   '#627e99', '#405c79', '#223b54', '#0b1c2c',
+  #   '#bf8b56', '#bfbf56', '#8bbf56', '#56bf8b',
+  #   '#568bbf', '#8b56bf', '#bf568b', '#bf5656'
+  # ]
+
+  # Tomorrow Night by Chris Kempson (http://chriskempson.com)
+  # highlight: [
+  #   '#1d1f21', '#282a2e', '#373b41', '#969896',
+  #   '#b4b7b4', '#c5c8c6', '#e0e0e0', '#ffffff',
+  #   '#cc6666', '#de935f', '#f0c674', '#b5bd68',
+  #   '#8abeb7', '#81a2be', '#b294bb', '#a3685a'
+  # ]
+
+# Sidebar profile
+profile:
+  # 邮箱用于生成 gravatar 头像，如配置了 `hexo.config.email`，此项可缺省
+  email: fuj8023@gmail.com
+
+  # 也可以直接设置头像 URL
+  avatar: images/tx.jpg
+
+  # 个性签名
+  bio: Early know so stumbles over the heart, see at the beginning don't know each other
+
+# Sidebar menu
+menu:
+  Home: /
+  About: /about
+  # Links: /links
+
+# Sidebar social media
+# Try to sort by changing the order of the keys
+sns:
+  # `email` will fallback to `profile.email` if not specified
+  email: fuj8023@gmail.com
+  # `feed` will fallback to `hexo.config.feed.path` if not specified
+  feed:
+  github: https://github.com/zine-fj
+  twitter:
+  facebook:
+  instagram:
+  tumblr:
+  dribbble:
+  telegram:
+  youtube:
+  hangouts:
+  linkedin:
+  pinterest:
+  soundcloud:
+  myspace:
+  weibo: https://weibo.com/u/3868078816?is_all=1
+  qq:
+
+# Sidebar footer
+footer:
+  # 默认显示 @2019 • author，设置为 false 可隐藏。
+  copyright: '&copy; 2018 ❤️ <a href="">min zhong</a>'
+
+  # `由 Hexo 强力驱动` 字样，默认显示，设置为 false 可隐藏。
+  powered: false
+
+  # `主题 - Inside` 字样，默认显示，设置为 false 可隐藏。
+  theme: true
+
+  # 于最后一行添加自定义内容
+  # custom: Hosted by <a target="_blank" href="">Github Pages</a>
+
+
+
+# ---------------------------------------------------------------
+# Content
+# ---------------------------------------------------------------
+
+# Page
+page:
+  # 显示目录，默认启用，设置为 `false` 可禁用
+  toc: true
+
+  # 显示打赏，默认禁用，设置为 `true` 可启用
+  reward: false
+
+  # 显示版权声明，默认禁用，设置为 `true` 可启用
+  copyright: false
+
+
+# Post
+post:
+  # 首页文章列表的分页大小，缺省值 `10`
+  per_page: 10
+
+  # 以下参数设置与 page 一致
+  toc: true
+  reward: true
+  copyright: false
+
+archive:
+  # 归档页分页大小，缺省值 `10`
+  per_page: 10
+
+tag:
+  # 标签页分页大小，缺省值 `10`
+  per_page: 10
+
+category:
+  # 分类页分页大小，缺省值 `10`
+  per_page: 10
+
+# Search
+search:
+  # 在页面右下角的 FAB 按钮里显示快捷搜索入口
+  fab: true
+
+   # 额外生成 search 页面，可配置在 sidebar 导航，如 `Search: /search`
+  page: false
+
+  # 以上两个入口必须至少设置一个，否则视为无效配置
+
+  # 本地搜索，即生成本地 json 文件
+  adapter:
+    # json 数据的范围，数组
+    range:
+      - post
+      - page
+    # json 数据的条目限制
+    # 假如 `limit:1000`，同时有 800 篇 post，800 篇 page，则最终生成的数据包含：
+    # 800 篇 post，200 篇 page
+    # 缺省值 `10000`
+    limit: 10000
+
+    # 搜索结果分页大小，缺省值 `10`
+    per_page: 5
+
+  # 自定义搜索 API
+  # adapter:
+  #   # Used for pagination
+  #   per_page: 10
+  #   # 显示 LOGO 图片，可选
+  #   logo: //cdn.worldvectorlogo.com/logos/algolia.svg
+  #   # 此配置项为构造完整的请求对象
+  #   request:
+  #     # 接口 url
+  #     url: https://{APPLICATION_ID}-dsn.algolia.net/1/indexes/{INDEX}/query
+
+  #     # GET 或 POST，不区分大小写，缺省值 `GET`
+  #     method: post
+  #     # 请求参数，格式视 Content-Type 而定，支持的字符串插值有：
+  #     # 搜索的字符串 `:query`
+  #     # 分页大小 `:per_page`
+  #     # 当前页 `:current`
+  #     body: '{"query":":query","hitsPerPage":":per_page","page":":current"}'
+  #     # 请求头
+  #     headers:
+  #       X-Algolia-API-Key: API_KEY
+  #       X-Algolia-Application-Id: APPLICATION_ID
+  #       Content-Type: application/json; charset=UTF-8
+  #   keys:
+  #     # Used to retrieve result list
+  #     data: hits
+  #     # Used to retrieve current page number
+  #     current: page
+  #     # Used to retrieve total page number
+  #     total: nbPage
+  #     # Used to retrieve total hits number
+  #     hits: nbHits
+  #     # Used to retrieve cost time
+  #     time: processingTimeMS
+  #     # Used to retrieve title from per hit
+  #     title: _snippetResult.title.value
+  #     # Used to retrieve content from per hit
+  #     content: _snippetResult.content.value
+
+
+# ---------------------------------------------------------------
+# Content addons
+# ---------------------------------------------------------------
+
+# Prefix/Suffix of image URL, useful for CDN, for example,
+# `![cat](images/cat.gif)` will convert to
+# <img src="https://cdn.example.com/images/cat.gif?m=webp&q=80" alt="cat">
+assets:
+  # prefix: 'https://cdn.example.com'
+  # suffix: '?m=webp&q=80'
+
+# Table of content, enabled by default, set to `false` to disable.
+toc:
+  # The depth of toc, default to `3`, maximum to `4`.
+  # depth: 3
+
+  # Showing index before title, eg. 1.1 title, default to `true`
+  # index: true
+
+# Reward
+reward:
+  # Text which shows at the top.
+  # text: Buy me a cup of coffee ☕.
+
+  # Payment Methods
+  # qrcode, url and text must be set at least one
+  # wechat, alipay, paypal and bitcoin has built-in icon and color themes,
+  # use `name` to apply
+  # methods:
+  #   - name: paypal
+  #     qrcode: paypal.jpg
+  #     url: https://paypal.me/imelmore
+  #     text: This is a paypal payment link
+
+# Copyright notice
+# It is possible to use front matter `copyright` to override this setting.
+# copyright:
+#   # 显示作者，设置为 false 可隐藏。
+#   author: true
+#   # 显示文章链接，设置为 false 可隐藏。
+#   link: true
+#   # 版权声明
+#   license: 转载请注明出处，蟹蟹
+#   # 显示发表日期，默认不显示，设置为 true 可显示。
+#   published: true
+#   # 显示修改日期，默认不显示，设置为 true 可显示。
+#   # updated: true
+#   # 禁用以上设置，显示自定义信息 
+
+# Comments
+# Built-in support Disqus (https://disqus.com) and LiveRe (https://livere.com),
+# for other comment system, see plugins
+comments:
+  # disqus:
+  #   shortname: disqus_shortname
+  #   # Or you can set disqus script URL directly
+  #   script: //disqus_shortname.disqus.com/embed.js
+  #   # Autoload, default to `true`, set to `false` to display a button
+  #   autoload: false
+
+  # livere:
+  #   uid: livere_uid
+  #   # LiveRe script, default to `https://cdn-city.livere.com/js/embed.dist.js`
+  #   script:
+  #   # Autoload, default to `true`, set to `false` to display a button
+  #   autoload: false
+
+
+# ---------------------------------------------------------------
+# Misc
+# ---------------------------------------------------------------
+
+# URL prefix for theme statics
+static_prefix:
+
+# URL prefix for json data
+# If your json file is put in a cdn server,
+# set data_prefix as '//cdn.com/path/to/path/your_json_dir' and data_dir as 'your_json_dir'
+data_prefix:
+
+# Folder where json file will be generated to, default to 'api'
+data_dir:
+
+# Favicon, default to `favicon.ico`
+favicon:
+
+# Google analytics
+ga: UA-00000000-0
+
+# SEO
+seo:
+  # Render structured-data in <head>, default to `false`
+  structured_data: true
+
+# PWA
+pwa:
+  # Workbox (https://developers.google.com/web/tools/workbox/) is a JavaScript
+  # libraries for adding offline support to web apps,
+  # disabled by default, remove the hash to enable
+  # workbox:
+  #   # Workbox cdn, uses google by default, below is an example of using alicdn
+  #   cdn: https://g.alicdn.com/kg/workbox/3.3.0/workbox-sw.js
+  #   module_path_prefix: https://g.alicdn.com/kg/workbox/3.3.0/
+  #   # Expire time in hour, 4 by default, set to 0 to be permanent,
+  #   # caches will be forcibly deleted the next time the site is updated.
+  #   expire: 4
+  #   # The worker script name, `sw.js` by default
+  #   name: sw.js
+  #   # Custom rules
+  #   rules:
+  #     - name: jsdelivr
+  #       strategy: staleWhileRevalidate
+  #       regex: https://cdn\\.jsdelivr\\.net
+  #     - name: gtm
+  #       strategy: staleWhileRevalidate
+  #       regex: https://www\\.googletagmanager\\.com\?id=.*
+  #     - name: gravatar
+  #       strategy: staleWhileRevalidate
+  #       regex: https://www\\.gravatar\\.com
+  #     - name: theme
+  #       strategy: staleWhileRevalidate
+  #       regex: /.*\\.(?:js|css|woff2|png|jpg|gif)$
+  #     - name: cdn
+  #       strategy: staleWhileRevalidate
+  #       regex: https://cdn\\.yourdomain\\.com
+  #     - name: json
+  #       strategy: cacheFirst
+  #       regex: your_data_prefix/.*\\.json
+
+  # manifest.json
+  # manifest:
+  #   short_name:
+  #   name:
+  #   start_url: /
+  #   theme_color: '#2a2b33'
+  #   background_color: '#2a2b33'
+  #   icons:
+  #     - src: icon-194x194.png
+  #       sizes: 194x194 512x512
+  #       type: image/png
+  #     - src: icon-144x144.png
+  #       sizes: 144x144
+  #       type: image/png
+plugins:
+  - //cdn1.lncld.net/static/js/3.0.4/av-min.js
+  - //unpkg.com/valine/dist/Valine.min.js
+  - position: comments
+    template: |
+      <div id="vcomment"></div>
+      <script>
+        new Valine({
+          el: '#vcomment',
+          appId: 'R45Yk3KFhSbb82Mi3PW2nKwE-gzGzoHsz',
+          appKey: 'er9AbHk94jP16Wy82bqERBVi',
+        })
+      </script>
+# Plugins
+# Inject html snippet to a specified position, Or global inject scripts/styles.
+# The code will take advantage of babel, uglifyjs and html-minifier if possible.
+# Simply run the following command in the root directory of Hexo (not `themes/inside`):
+# ```bash
+# npm install babel-core babel-preset-env html-minifier uglify-js --save
+# ```
+# plugins:
+#   # Dynamic inject html snippet
+#   - position: # `sidebar` | `post` | `page` | `comments`, can be an array
+
+#     # HTML code
+#     template: |
+#       <script>...</script>
+#     # Or a path relative to theme folder
+#     template: snippets/snippet-1.html
+
+#   # Global Inject scripts/styles
+#   # scripts will be injected into <body>, and styles will be injected into <head>
+#   # In general, script or style depends on their ext name.
+#   - //xxx.css
+#   - //xxx.js
+
+#   # A few more flexible examples
+
+#   # <script src="//sample.com/api.php?format=jsonp" id="sample-api" defer></script>
+#   - tag: script # html tag, `script` | `style` | `link`
+#     # Any possible attributes
+#     src: //sample.com/api.php?format=jsonp
+#     id: sample-api
+#     defer: true
+
+#   # <link rel="stylesheet" href="xxx.css" disable>
+#   - tag: link
+#     href: xxx.css
+#     disable: true
+
+#   # Inline script
+#   # <script type="text/x-mathjax-config">MathJax.Hub.Config({...})</script>
+#   - tag: script
+#     type: text/x-mathjax-config
+#     code: |
+#         MathJax.Hub.Config({
+#           showProcessingMessages: false,
+#           messageStyle: 'none',
+#           tex2jax: { inlineMath: [['s;,'s;], ['\\(','\\)']] }
+#         })
+#     # Or a path relative to theme folder
+#     code: snippets/mathjax-config.js
+
+#   # Inline style
+#   # <style>.mycss{...}</style>
+#   - tag: style
+#     code: |
+#         .mycss {
+#           color: rebeccapurple;
+#         }
+#     # Or a path relative to theme folder
+#     code: snippets/mycss.css
