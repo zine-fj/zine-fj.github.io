@@ -1,0 +1,130 @@
+/* ==================== HTML5 CSS Reset ==================== */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+li{list-style:none}
+
+html,body{ 
+    width:100%;
+    height:100%;
+}
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#main{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  font-family: "Helvetica Neue",Arial,"Hiragino Sans GB",STHeiti,"Microsoft YaHei";
+}
+
+#main .content{
+  text-align: center;
+  z-index: 99;
+  margin-bottom: 12vh;
+}
+
+#main .content .avatar{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 7px #dddddd;
+}
+
+#main .content .avatar img{
+  max-width: 100%;
+  height: 100%;
+}
+
+#main .content .name{
+  font-size: 24px;
+  color: #0099CC;
+  margin: 30px auto;
+  letter-spacing: 0.1em;
+}
+
+#main .content .description{
+  font-size: 16px;
+  color: #00CCCC;
+  letter-spacing: 0.1em;
+  line-height: 30px;
+  padding: 0 5vw;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+#main .content .links a{
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0 20px;
+  color: #00CCCC;
+  line-height: 24px;
+  position: relative;
+}
+
+#main .content .links a:after{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background-color: #00CCCC;
+  left: 0;
+  top: 100%;
+  transition: 0.3s;
+  margin: 0 auto;
+}
+
+#main .content .links a:hover:after{
+  width: 100%;
+}
+
+
+@media screen and (max-width: 480px) {
+  #main .content .description span{
+    display: block;
+  }
+  #main .content .links a{
+    display: block;
+    width: 50%;
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    margin-bottom: .8em;
+  }
+}
