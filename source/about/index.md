@@ -17,11 +17,11 @@ date: 2018-10-22 15:25:30
 #### 联系方式
 <div style="display: flex;flex-wrap: wrap;">
     <div style="margin-right: 30px;">
-        <img src="/images/wx.jpg" style="width:200px;height: 200px;box-shadow: 0 0 20px #eee;">
+        <img src="images/wx.jpg" style="width:200px;height: 200px;box-shadow: 0 0 20px #eee;">
         <p style="text-align:center;">个人微信</p>
     </div>
     <div>
-        <img src="/images/xcx.png" style="width:200px;height: 200px;box-shadow: 0 0 20px #eee;">
+        <img src="images/xcx.png" style="width:200px;height: 200px;box-shadow: 0 0 20px #eee;">
         <p style="text-align:center;">个人小程序</p>
     </div>
 </div>
