@@ -12,16 +12,16 @@ date: 2018-10-22 15:25:30
 <a href="https://zine-fj.github.io/starrySky/" target="_target">星空</a>，<a href="https://zine-fj.github.io/translate/" target="_target">翻译</a>
 
 #### 本站信息
-本站使用<a href="https://hexo.io/zh-cn" target="_target">hexo</a>生成，主题<a href="https://github.com/ike-c/hexo-theme-inside" target="_target">inside</a>，部署在<a href="https://github.com" target="_target">Github</a>，评论系统<a href="https://deserts.io/diy-a-comment-system/" target="_target">valine</a>。
+本站使用<a href="https://hexo.io/zh-cn" target="_target">hexo</a>生成，主题<a href="https://github.com/ike-c/hexo-theme-inside" target="_target">inside</a>，部署在<a href="https://github.com" target="_target">Github</a>，图片存储为<a href="https://www.qiniu.com/" target="_target">七牛云</a>，评论系统<a href="https://deserts.io/diy-a-comment-system/" target="_target">valine</a>。
 
 #### 联系方式
 <div style="display: flex;flex-wrap: wrap;">
     <div style="margin-right: 30px;">
-        <img src="images/wx.jpg" style="width:200px;height: 200px;box-shadow: 0 0 20px #eee;">
+        <img src="wx.jpg" style="width:200px;height: 200px;box-shadow: 0 0 20px #eee;">
         <p style="text-align:center;">个人微信</p>
     </div>
     <div>
-        <img src="images/xcx.png" style="width:200px;height: 200px;box-shadow: 0 0 20px #eee;">
+        <img src="xcx.png" style="width:200px;height: 200px;box-shadow: 0 0 20px #eee;">
         <p style="text-align:center;">个人小程序</p>
     </div>
 </div>
