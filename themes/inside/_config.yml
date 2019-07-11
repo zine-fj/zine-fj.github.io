@@ -21,7 +21,7 @@ appearance:
     - '#2a2b33'
 
   # 内容区域最大宽度
-  content_width: 640
+  content_width: 740
 
   # Fonts
   font:
@@ -32,7 +32,7 @@ appearance:
     base: "Josefin Sans,PingFang SC,Microsoft JhengHei,Microsoft YaHei,sans-serif"
     
     # 作用于 sidebar 上方的 LOGO
-    logo: 'images/an.jpg'
+    logo: images/an.jpg
     # 作用于 sidebar 菜单栏
     # menu: 'Baloo Bhaijaan'
     # 作用于文章百分比、归档页月份、分类文字数、分页、目录索引等地方
@@ -315,7 +315,7 @@ data_prefix:
 data_dir:
 
 # Favicon, default to `favicon.ico`
-favicon:
+favicon: images/an.ico
 
 # Google analytics
 ga: UA-00000000-0
