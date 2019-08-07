@@ -238,9 +238,9 @@ search:
 # Prefix/Suffix of image URL, useful for CDN, for example,
 # `![cat](images/cat.gif)` will convert to
 # <img src="https://cdn.example.com/images/cat.gif?m=webp&q=80" alt="cat">
-assets:
-  prefix: 'http://pugtdyrmr.bkt.clouddn.com'
-  suffix: '?m=webp&q=80'
+# assets:
+#   prefix: 'http://pugtdyrmr.bkt.clouddn.com'
+#   suffix: '?m=webp&q=80'
 
 # Table of content, enabled by default, set to `false` to disable.
 toc:
@@ -385,6 +385,7 @@ plugins:
           el: '#vcomment',
           appId: 'R45Yk3KFhSbb82Mi3PW2nKwE-gzGzoHsz',
           appKey: 'er9AbHk94jP16Wy82bqERBVi',
+          path: location.pathname,
           avatar: 'wavatar',
           placeholder: ' ー( ´ ▽ ` )ﾉ 留下你的小脚印...',
         })
