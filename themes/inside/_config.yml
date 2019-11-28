@@ -72,6 +72,8 @@ appearance:
   #   '#8abeb7', '#81a2be', '#b294bb', '#a3685a'
   # ]
 
+
+
 # Sidebar profile
 profile:
   # 邮箱用于生成 gravatar 头像，如配置了 `hexo.config.email`，此项可缺省
@@ -142,6 +144,8 @@ page:
 
   # 显示版权声明，默认禁用，设置为 `true` 可启用
   copyright: false
+  # 在 page 标题下方显示信息，目前只会显示 date。
+  # meta: true
 
 
 # Post
@@ -151,7 +155,7 @@ post:
 
   # 以下参数设置与 page 一致
   toc: true
-  reward: true
+  reward: false
   copyright: false
 
 archive:
