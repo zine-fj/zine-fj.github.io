@@ -25,7 +25,6 @@ date: 2018-10-22 15:25:30
 
 #### 优秀网页
 <div style="display:flex;flex-wrap:wrap;">
-    <a href="https://yiluyanxia.site/" title="友链 ~ 中国风美女小姐姐" target="_target">一路烟霞</a>、
     <a href="https://zine-fj.github.io/starrySky/" title="效果 ~ 夜空"  target="_target">星空</a>、
     <a href="http://zhongguose.com/" title="中国色"  target="_target">中国色</a>
 </div>
