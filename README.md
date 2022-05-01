@@ -1,3 +1,3 @@
 # 个人博客
 
-入口：[一世长安](zine-fj.github.io)
+入口：[一世长安](https://zine-fj.github.io/)
